@@ -42,5 +42,5 @@ def kmpSearch(pattern, text):
 
     return -1  # Pattern not found
 
-# print(kmpSearch("hski","ski"))
+
 

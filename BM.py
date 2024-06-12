@@ -8,7 +8,8 @@ def bmSearch(pattern, text):
     last = LastOccurrence(pattern)
     n = len(text)
     m = len(pattern)
-    i = m - 1  # Start at the end of the pattern, aligned with corresponding position in text
+    i = m - 1  # Start at the end of the pattern, 
+               # aligned with corresponding position in text
 
     while i < n:
         j = m - 1  # Start comparison at the end of the pattern
